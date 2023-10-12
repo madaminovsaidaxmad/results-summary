@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.all {
+    display: flex;
+    margin: 0 auto;
+    width: 33rem;
+    height: 28rem;
+    margin-top: 12rem;
+    border-radius: 2rem;
+}
+
+.left {
+    width: 52%;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 1.5rem;
+}
+
+.same {
+    font-weight: 400;
+    margin-left: 5.5rem;
+    margin-top: 2.5rem;
+    color: rgb(219, 200, 200);
+
+}
+
+.box {
+    background-color: hsla(256, 72%, 46%, 1);
+    border: 1px solid transparent;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 2.4rem;
+    margin-top: 1.8rem;
+    border-radius: 50%;
+}
+
+.box h1 {
+    margin-left: 3.5rem;
+
+}
+
+
+.right {
+    width: 48%;
+}
+
+.right h4 {
+    font-weight: 500;
+}
+
+.box1 {
+    border: 1px solid;
+    /* border-radius: 8px; */
+    background: rgb(245, 241, 241);
+    height: 43px;
+}
+
+.continueb {
+    border: 1px solid;
+    background: hsl(224, 30%, 27%);
+}
+
+.continueb:hover {
+    background: blue;
+    border: 1px solid transparent;
+}
+
+.chaqmoq {
+    margin-left: 5px;
+}
+
+.r {
+    color: hsl(0, 100%, 67%);
+}
+
+.m {
+    color: hsl(39, 100%, 56%);
+}
+
+.v {
+    color: hsl(166, 100%, 37%);
+}
+
+.vi {
+    color: hsl(234, 85%, 45%);
+}
+
+@media (max-width: 760px) {
+    .summary {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: column;
+        display: flex;
+    }
+}
